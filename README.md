@@ -1,5 +1,7 @@
 # Hyperliquid MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@jamsturg/server-hyperliquid)](https://smithery.ai/server/@jamsturg/server-hyperliquid)
+
 An MCP server implementation that integrates the Hyperliquid SDK.
 
 ## Tools
@@ -22,6 +24,14 @@ An MCP server implementation that integrates the Hyperliquid SDK.
   - Access the L2 order book for any token
   - Inputs:
     - `symbol` (string): Token symbol
+
+### Installing via Smithery
+
+To install server-hyperliquid for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@jamsturg/server-hyperliquid):
+
+```bash
+npx -y @smithery/cli install @jamsturg/server-hyperliquid --client claude
+```
 
 ### Usage with Claude Desktop
 
